@@ -4,9 +4,7 @@
 
 import csv
 from datetime import datetime, timedelta
-# from the tkinter library
 import tkinter as tk
-# import filedialog module
 from tkinter import filedialog
 
 
@@ -300,4 +298,5 @@ skip_result_label.grid(row=5, column=0, columnspan=2, pady=10)
 
 
 #run main event loop
+
 window.mainloop()
